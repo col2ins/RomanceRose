@@ -41,7 +41,7 @@ class Content1 extends React.PureComponent {
     let { leftIcon, rightIcon } = this.state;
     return (
       <Container>
-        <Row>
+        <Row className="margin-top-secondary">
           <Col>
             <RBCarousel
               animation={true}
