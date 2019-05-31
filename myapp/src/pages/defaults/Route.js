@@ -15,6 +15,8 @@ import Testimonials from './Testimonials/Testimonials';
 import HomePage from './HomePage';
 import LoginPage from './LoginPage';
 
+import "bootstrap/dist/css/bootstrap.css";
+import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 import "./css/MyStyle.css";
 import "./css/icons/webfont.css";
 import "./css/icons/fontawesome-free-5.8.1-web/css/fontawesome.min.css";

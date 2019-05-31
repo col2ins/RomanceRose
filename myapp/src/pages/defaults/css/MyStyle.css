@@ -968,14 +968,14 @@
     color: #f8f9fa;
     font-size: 1rem;
     padding-block-start: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     position: absolute;
-    top: 88.5%;
+    top: auto;
     width: 100%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -100%);
+    -ms-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
     text-align: center;
     opacity: 0;
     transition: .5s ease-in-out;
@@ -983,10 +983,9 @@
     border: 0.0625rem solid #191C51;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .text-showcases-2 {
         font-size: smaller;
-        top: 83.5%;
     }
 }
 
@@ -1083,4 +1082,18 @@ a:hover {
 
 .width-25 {
     width: 25%;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -3.125rem;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
 }
