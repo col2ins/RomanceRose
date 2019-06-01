@@ -3,7 +3,7 @@ import React from "react";
 import Title from "./Title";
 import Content from "./Content";
 
-class Showcases extends React.Component {
+class Products extends React.Component {
   render() {
     return (
       <div className="jumbotron-masthead jumbotron-fluid">
@@ -14,4 +14,4 @@ class Showcases extends React.Component {
   }
 }
 
-export default Showcases;
+export default Products;

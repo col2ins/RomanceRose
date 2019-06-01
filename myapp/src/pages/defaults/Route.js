@@ -10,7 +10,9 @@ import Showcases from './Showcases/Showcases';
 import PartyPreparing from './PartyPreparing/PartyPreparing';
 import Products from './Products/Products';
 import Testimonials from './Testimonials/Testimonials';
-
+import Blog from './Blog/Blog';
+import Partners from './Partners/Partners';
+import Contact from './Contact/Contact';
 
 import HomePage from './HomePage';
 import LoginPage from './LoginPage';
@@ -44,6 +46,9 @@ function HomeContent({ routes }) {
             <PartyPreparing />
             <Products />
             <Testimonials />
+            <Blog />
+            <Partners />
+            <Contact />
             <HomePage />
         </div>
     );

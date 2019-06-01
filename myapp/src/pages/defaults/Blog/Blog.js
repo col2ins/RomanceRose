@@ -3,10 +3,10 @@ import React from "react";
 import Title from "./Title";
 import Content from "./Content";
 
-class Testimonials extends React.Component {
+class Blog extends React.Component {
   render() {
     return (
-      <div className="jumbotron-masthead jumbotron-fluid img-bg-testimonials">
+      <div className="jumbotron-masthead jumbotron-fluid">
           <Title />
           <Content />
       </div>
@@ -14,4 +14,4 @@ class Testimonials extends React.Component {
   }
 }
 
-export default Testimonials;
+export default Blog;
