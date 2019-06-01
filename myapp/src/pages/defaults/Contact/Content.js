@@ -177,25 +177,83 @@ class Content extends React.Component {
                   Hỗ trợ khách hàng
                 </h5>
                 <div className="margin-top-4th">
-                  <p className="h2-masthead montserrat-medium color-dark-75">
-                    Các câu hỏi thường gặp
-                  </p>
-                  <p className="h2-masthead montserrat-medium color-dark-75">
-                    Gửi yêu cầu hỗ trợ
-                  </p>
-                  <p className="h2-masthead montserrat-medium color-dark-75">
-                    Hướng dẫn đặt hàng
-                  </p>
-                  <p className="h2-masthead montserrat-medium color-dark-75">
-                    Phương thức vận chuyển
-                  </p>
-                  <p className="h2-masthead montserrat-medium color-dark-75">
-                    Chính sách đổi trả
-                  </p>
-                  <p className="h2-masthead montserrat-medium color-dark-75">
-                    Dự toán chi phí lễ cưới hỏi
-                  </p>
+                  <a href="#demo">
+                    <p className="h2-masthead montserrat-medium color-dark-75">
+                      Các câu hỏi thường gặp
+                    </p>
+                  </a>
+                  <a href="#demo">
+                    <p className="h2-masthead montserrat-medium color-dark-75">
+                      Gửi yêu cầu hỗ trợ
+                    </p>
+                  </a>
+                  <a href="#demo">
+                    <p className="h2-masthead montserrat-medium color-dark-75">
+                      Hướng dẫn đặt hàng
+                    </p>
+                  </a>
+                  <a href="#demo">
+                    <p className="h2-masthead montserrat-medium color-dark-75">
+                      Phương thức vận chuyển
+                    </p>
+                  </a>
+                  <a href="#demo">
+                    <p className="h2-masthead montserrat-medium color-dark-75">
+                      Chính sách đổi trả
+                    </p>
+                  </a>
+                  <a href="#demo">
+                    <p className="h2-masthead montserrat-medium color-dark-75">
+                      Dự toán chi phí lễ cưới hỏi
+                    </p>
+                  </a>
                 </div>
+              </Col>
+            </Row>
+          </Col>
+          <Col lg={4} className="items-margin-top-20-contact">
+            <h5 className="h5-masthead montserrat-semibold color-dark-blue">
+              Liên hệ với chúng tôi
+            </h5>
+            <Row className="margin-top-4th">
+              <Col sm={6} xs={6}>
+                <input
+                  type="text"
+                  name="Fullname"
+                  value="Họ tên"
+                  className="montserrat-medium color-dark-25"
+                />
+              </Col>
+              <Col sm={6} xs={6}>
+                <input
+                  type="email"
+                  name="Email"
+                  value="Email"
+                  className="montserrat-medium color-dark-25"
+                />
+              </Col>
+            </Row>
+            <Row style={{ marginTop: "0.9375rem" }}>
+              <Col sm={12} xs={12}>
+                <textarea
+                  rows="6"
+                  cols="12"
+                  className="montserrat-medium color-dark-25"
+                >
+                  Nội dung
+                </textarea>
+              </Col>
+            </Row>
+            <Row style={{ marginTop: "1.875rem" }}>
+              <Col sm={12} xs={12}>
+                <a
+                  className="btn btn-masthead btn-bg-secondary btn-lg montserrat-semibold color-light"
+                  style={{ width: "100%" }}
+                  href="Liên hệ.html"
+                  role="button"
+                >
+                  Liên hệ ngay
+                </a>
               </Col>
             </Row>
           </Col>

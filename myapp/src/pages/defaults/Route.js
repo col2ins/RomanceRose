@@ -16,6 +16,7 @@ import Contact from './Contact/Contact';
 
 import HomePage from './HomePage';
 import LoginPage from './LoginPage';
+import Footer from './Footer';
 
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
@@ -49,6 +50,7 @@ function HomeContent({ routes }) {
             <Blog />
             <Partners />
             <Contact />
+            <Footer />
             <HomePage />
         </div>
     );
