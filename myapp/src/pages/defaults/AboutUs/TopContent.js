@@ -9,20 +9,11 @@ class HeaderContent extends React.Component {
         <div className="jumbotron-masthead jumbotron-fluid bg-no-color">
           <Container>
             <h1 className="h1-masthead display-4 playfairdisplay-bolditalic color-very-soft-orange">
-              Hello.
-              <br />
-              We're Romance Rosé.
+              Về chúng tôi
             </h1>
             <p className="p-masthead-primary lead montserrat-medium color-light-75">
-              Đồng hành cùng chúng tôi hiện thực hóa hôn lễ trong mơ của bạn.
+              Romance Rosé - Nơi đặt niềm tin của bạn
             </p>
-            <a
-              className="btn btn-masthead btn-bd-secondary btn-lg montserrat-semibold color-light margin-top-4th"
-              href="Liên hệ.html"
-              role="button"
-            >
-              Liên hệ ngay
-            </a>
           </Container>
         </div>
       </div>

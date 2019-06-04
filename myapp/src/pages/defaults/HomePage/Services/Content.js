@@ -11,7 +11,7 @@ class Content extends React.Component {
             sm={12}
             className="text-align-center margin-top-secondary"
           >
-            <img src="/images/about us/medal.png" alt="" />
+            <img src="/images/about us/medal.png" />
             <h5 className="montserrat-semibold color-dark-blue padding-20-10">
               Uy tín là vàng
             </h5>
@@ -25,7 +25,7 @@ class Content extends React.Component {
             sm={12}
             className="text-align-center margin-top-secondary"
           >
-            <img src="/images/about us/idea.png" alt="" />
+            <img src="/images/about us/idea.png" />
             <h5 className="montserrat-semibold color-dark-blue padding-20-10">
               Thiết kế độc đáo
             </h5>
@@ -39,7 +39,7 @@ class Content extends React.Component {
             sm={12}
             className="text-align-center margin-top-secondary"
           >
-            <img src="/images/about us/career.png" alt="" />
+            <img src="/images/about us/career.png" />
             <h5 className="montserrat-semibold color-dark-blue padding-20-10">
               Làm việc linh hoạt
             </h5>
@@ -53,7 +53,7 @@ class Content extends React.Component {
             sm={12}
             className="text-align-center margin-top-secondary"
           >
-            <img src="/images/about us/save-money.png" alt="" />
+            <img src="/images/about us/save-money.png" />
             <h5 className="montserrat-semibold color-dark-blue padding-20-10">
               Chi phí hợp lý
             </h5>

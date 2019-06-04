@@ -5,6 +5,7 @@ import { Route } from 'react-router-dom';
 import Header from './Header/Header';
 
 import Footer from './Footer';
+import Partners from '../../components/Partners/Partners';
 import Contact from '../../components/Contact/Contact';
 import HomePage from './HomePage';
 
@@ -13,6 +14,10 @@ import HeaderTopContent from './HomePage/TopContent';
 
 import LeCuoi from './LeCuoi';
 import HeaderTopContentLeCuoi from './LeCuoi/TopContent';
+
+import AboutUs from './AboutUs';
+import HeaderTopContentAboutUs from './AboutUs/TopContent';
+
 
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
@@ -31,6 +36,7 @@ function RenderContent(route) {
                 <div key={route.path}>
                     <Header content={route.topcontent} />
                     <route.component {...props} routes={route.routes} />
+                    <Partners />
                     <Contact />
                     <Footer />
                 </div>
@@ -44,6 +50,13 @@ const RouteList = [
         path: "/",
         component: HomePage,
         topcontent: <HeaderTopContent />,
+        routes: [],
+        exact: true
+    },
+    {
+        path: "/AboutUs",
+        component: AboutUs,
+        topcontent: <HeaderTopContentAboutUs />,
         routes: [],
         exact: true
     },

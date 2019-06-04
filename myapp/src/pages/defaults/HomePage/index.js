@@ -3,15 +3,13 @@ import React from 'react';
 import Content from '../../../components/Content';
 
 import AboutUs from './AboutUs/AboutUs';
-import Services from '../../../components/Services/Services';
-import OurSuccess from '../../../components/OurSuccess/OurSuccess';
-import Showcases from '../../../components/Showcases/Showcases';
-import PartyPreparing from '../../../components/PartyPreparing/PartyPreparing';
-import Products from '../../../components/Products/Products';
-import Testimonials from '../../../components/Testimonials/Testimonials';
-import Blog from '../../../components/Blog/Blog';
-import Partners from '../../../components/Partners/Partners';
-
+import Services from './Services/Services';
+import OurSuccess from './OurSuccess/OurSuccess';
+import Showcases from './Showcases/Showcases';
+import PartyPreparing from './PartyPreparing/PartyPreparing';
+import Products from './Products/Products';
+import Testimonials from './Testimonials/Testimonials';
+import Blog from './Blog/Blog';
 
 class HomePage extends React.Component {
     buildContent() {
@@ -25,7 +23,6 @@ class HomePage extends React.Component {
         data.push(<Products key="06" />)
         data.push(<Testimonials key="07" />)
         data.push(<Blog key="08" />)
-        data.push(<Partners key="09" />)
 
         return data;
     }

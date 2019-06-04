@@ -21,7 +21,7 @@ class NavBar extends React.Component {
               <Nav.Link className="nav-bar-link-masthead" href="#home">
                 <span className="dripicons-home" />
               </Nav.Link>
-              <Nav.Link className="nav-bar-link-masthead montserrat-semibold" href="">Về chúng tôi</Nav.Link>
+              <Nav.Link className="nav-bar-link-masthead montserrat-semibold" href="/AboutUs">Về chúng tôi</Nav.Link>
               <NavDropdown title="Dịch vụ" id="collasible-nav-dropdown" className="nav-bar-link-masthead montserrat-semibold">
                 <NavDropdown.Item href="#action/3.1">
                   Lễ dạm ngõ
