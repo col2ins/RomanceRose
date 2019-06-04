@@ -2,7 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router} from 'react-router-dom';
 
-const AdminRouter = require('./admin/Route').Router;
+// const AdminRouter = require('./admin/Route').Router;
 const defaultRouter = require('./defaults/Route').Router;
 
 class AppContent extends React.Component {
@@ -10,7 +10,7 @@ class AppContent extends React.Component {
         return (
             <div className="app-content">
                 <Router>
-                   {AdminRouter}
+                   {/* {AdminRouter} */}
                    {defaultRouter}
                 </Router>
             </div>

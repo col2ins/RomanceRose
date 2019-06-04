@@ -8,7 +8,7 @@ class Header extends React.Component {
     return (
       <div className="app-header header-bg">
           <NavBar />
-          <HeaderContent />
+          {this.props.content}
       </div>
     );
   }

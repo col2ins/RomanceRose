@@ -5,7 +5,8 @@ class HeaderContent extends React.Component {
   render() {
     return (
       <div className="header-content">
-        <div className="jumbotron-masthead jumbotron-fluid bg-no-color">
+        {this.props.content}
+        {/* <div className="jumbotron-masthead jumbotron-fluid bg-no-color">
           <Container>
             <h1 className="h1-masthead display-4 playfairdisplay-bolditalic color-very-soft-orange">
               Hello.
@@ -23,7 +24,7 @@ class HeaderContent extends React.Component {
               Liên hệ ngay
             </a>
           </Container>
-        </div>
+        </div> */}
       </div>
     );
   }

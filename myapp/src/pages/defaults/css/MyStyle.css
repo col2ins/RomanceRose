@@ -582,7 +582,7 @@
         linear-gradient(rgba(237, 178, 155, 0.25),
             rgba(237, 178, 155, 0.25)),
         /* bottom, image */
-        url(./header/header.jpg);
+        url(header/header.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

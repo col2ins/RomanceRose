@@ -7,7 +7,7 @@ class NavBar extends React.Component {
     return (
       <div className="app-header line-height-2">
         <Navbar collapseOnSelect expand="lg" variant="dark">
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img
               alt=""
               src="/images/logo.svg"
@@ -29,7 +29,7 @@ class NavBar extends React.Component {
                 <NavDropdown.Item href="#action/3.2">
                   Lễ ăn hỏi
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Lễ cưới</NavDropdown.Item>
+                <NavDropdown.Item href="/lecuoi">Lễ cưới</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Sản phẩm" id="collasible-nav-dropdown" className="nav-bar-link-masthead montserrat-semibold">
                 <NavDropdown.Item href="#action/3.1">Hoa cưới</NavDropdown.Item>
